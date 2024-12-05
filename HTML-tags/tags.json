@@ -630,5 +630,10 @@
     "tagName": "blink",
     "groups": ["deprecated", "inline"],
     "description": "Defines a blinking text (use CSS animations instead)"
+  },
+  {
+    "tagName": "xmp",
+    "groups": ["deprecated", "block"],
+    "description": "Defines preformatted text (use <pre> instead)"
   }
 ]
