@@ -4,7 +4,7 @@ This project helps to demonstrate HTML tags.
 
 Tags are split into groups and you can see a specific group by selecting this group in the dropdown list.
 
-<img src="./images/project.png" alt="Project" width="500"/>
+<img src="./images/project.png" alt="Project" />
 
 ## How to run
 
