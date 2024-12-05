@@ -1,0 +1,634 @@
+[
+  {
+    "tagName": "a",
+    "groups": ["inline"],
+    "description": "Defines a hyperlink"
+  },
+  {
+    "tagName": "abbr",
+    "groups": ["text-semantics"],
+    "description": "Defines an abbreviation"
+  },
+  {
+    "tagName": "address",
+    "groups": ["text-semantics", "block"],
+    "description": "Defines contact information"
+  },
+  {
+    "tagName": "area",
+    "groups": ["embedded", "inline"],
+    "description": "Defines an area in an image map"
+  },
+  {
+    "tagName": "article",
+    "groups": ["block"],
+    "description": "Defines an article"
+  },
+  {
+    "tagName": "aside",
+    "groups": ["block"],
+    "description": "Defines content aside from the main content"
+  },
+  {
+    "tagName": "audio",
+    "groups": ["media", "block"],
+    "description": "Embeds audio content"
+  },
+  {
+    "tagName": "b",
+    "groups": ["inline"],
+    "description": "Defines bold text without importance"
+  },
+  {
+    "tagName": "base",
+    "groups": ["metadata", "inline"],
+    "groupsOrder": { "metadata": 6 },
+    "description": "Specifies the base URL for all relative links"
+  },
+  {
+    "tagName": "bdi",
+    "groups": ["text-semantics", "inline"],
+    "description": "Isolates a span of text for bidirectional text formatting"
+  },
+  {
+    "tagName": "bdo",
+    "groups": ["text-semantics", "inline"],
+    "description": "Overrides the current text direction"
+  },
+  {
+    "tagName": "blockquote",
+    "groups": ["block", "text-semantics"],
+    "description": "Defines a block of quoted text"
+  },
+  {
+    "tagName": "body",
+    "groups": ["structural", "block", "most-used"],
+    "groupsOrder": { "most-used": 3, "structural": 3 },
+    "description": "Defines the main body of the document"
+  },
+  {
+    "tagName": "br",
+    "groups": ["inline"],
+    "description": "Inserts a single line break"
+  },
+  {
+    "tagName": "button",
+    "groups": ["forms", "block"],
+    "description": "Defines a clickable button"
+  },
+  {
+    "tagName": "canvas",
+    "groups": ["programming", "block"],
+    "description": "Provides a canvas for rendering graphics via JavaScript"
+  },
+  {
+    "tagName": "caption",
+    "groups": ["tables", "block"],
+    "description": "Defines a table caption"
+  },
+  {
+    "tagName": "cite",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines a citation or reference"
+  },
+  {
+    "tagName": "code",
+    "groups": ["programming", "inline"],
+    "description": "Defines a piece of computer code"
+  },
+  {
+    "tagName": "col",
+    "groups": ["tables", "block"],
+    "description": "Defines a column in a table"
+  },
+  {
+    "tagName": "colgroup",
+    "groups": ["tables", "block"],
+    "description": "Groups multiple columns in a table"
+  },
+  {
+    "tagName": "data",
+    "groups": ["text-semantics", "block"],
+    "description": "Links content to machine-readable data"
+  },
+  {
+    "tagName": "datalist",
+    "groups": ["forms", "block"],
+    "description": "Provides a dropdown list of predefined options"
+  },
+  {
+    "tagName": "dd",
+    "groups": ["lists", "block"],
+    "description": "Defines a description of a term in a description list"
+  },
+  {
+    "tagName": "del",
+    "groups": ["text-semantics", "inline"],
+    "description": "Marks text that has been deleted"
+  },
+
+  {
+    "tagName": "details",
+    "groups": ["interactive", "block"],
+    "description": "Defines additional details the user can view or hide"
+  },
+  {
+    "tagName": "dfn",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines the definition of a term"
+  },
+  {
+    "tagName": "dialog",
+    "groups": ["interactive", "block"],
+    "description": "Defines a dialog box or interactive widget"
+  },
+  {
+    "tagName": "div",
+    "groups": ["block", "most-used"],
+    "groupsOrder": { "most-used": 4 },
+    "description": "Defines a division or container for styling"
+  },
+  {
+    "tagName": "dl",
+    "groups": ["lists", "block"],
+    "description": "Defines a description list"
+  },
+  {
+    "tagName": "dt",
+    "groups": ["lists", "inline"],
+    "description": "Defines a term in a description list"
+  },
+  {
+    "tagName": "em",
+    "groups": ["inline"],
+    "description": "Defines emphasized text"
+  },
+  {
+    "tagName": "embed",
+    "groups": ["embedded", "inline"],
+    "description": "Embeds external content like a plugin or video"
+  },
+  {
+    "tagName": "fieldset",
+    "groups": ["forms", "block"],
+    "description": "Groups related elements in a form"
+  },
+  {
+    "tagName": "figcaption",
+    "groups": ["media", "block"],
+    "description": "Defines a caption or legend for a figure"
+  },
+  {
+    "tagName": "figure",
+    "groups": ["media", "block"],
+    "description": "Groups self-contained content like images, charts, etc."
+  },
+  {
+    "tagName": "footer",
+    "groups": ["block"],
+    "description": "Defines a footer for a section or page"
+  },
+  {
+    "tagName": "form",
+    "groups": ["forms", "block"],
+    "description": "Defines a form for user input"
+  },
+  {
+    "tagName": "h1",
+    "groups": ["headers", "block"],
+    "description": "Defines the top-level heading"
+  },
+  {
+    "tagName": "h2",
+    "groups": ["headers", "block"],
+    "description": "Defines a second-level heading"
+  },
+  {
+    "tagName": "h3",
+    "groups": ["headers", "block"],
+    "description": "Defines a third-level heading"
+  },
+  {
+    "tagName": "h4",
+    "groups": ["headers", "block"],
+    "description": "Defines a fourth-level heading"
+  },
+  {
+    "tagName": "h5",
+    "groups": ["headers", "block"],
+    "description": "Defines a fifth-level heading"
+  },
+  {
+    "tagName": "h6",
+    "groups": ["headers", "block"],
+    "description": "Defines a sixth-level heading"
+  },
+  {
+    "tagName": "head",
+    "groups": ["structural", "most-used"],
+    "groupsOrder": { "most-used": 2, "structural": 2 },
+    "description": "Defines the head section containing metadata"
+  },
+  {
+    "tagName": "header",
+    "groups": ["block"],
+    "description": "Defines a container for introductory content or navigation links"
+  },
+  {
+    "tagName": "hgroup",
+    "groups": ["headers", "block"],
+    "description": "Groups a set of headings"
+  },
+  {
+    "tagName": "hr",
+    "groups": ["block"],
+    "description": "Inserts a horizontal rule or thematic break"
+  },
+  {
+    "tagName": "html",
+    "groups": ["structural", "most-used"],
+    "groupsOrder": { "most-used": 1, "structural": 1 },
+    "description": "Defines the root of the HTML document"
+  },
+  {
+    "tagName": "i",
+    "groups": ["inline"],
+    "description": "Defines italicized text"
+  },
+
+  {
+    "tagName": "iframe",
+    "groups": ["embedded", "inline"],
+    "description": "Embeds an external HTML document"
+  },
+  {
+    "tagName": "img",
+    "groups": ["media", "inline"],
+    "description": "Embeds an image"
+  },
+  {
+    "tagName": "input",
+    "groups": ["forms", "inline"],
+    "description": "Defines an input field for user data"
+  },
+  {
+    "tagName": "ins",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines inserted text"
+  },
+  {
+    "tagName": "kbd",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines keyboard input text"
+  },
+  {
+    "tagName": "label",
+    "groups": ["forms", "inline"],
+    "description": "Defines a label for a form element"
+  },
+  {
+    "tagName": "legend",
+    "groups": ["forms", "block"],
+    "description": "Defines a caption for a fieldset"
+  },
+  {
+    "tagName": "li",
+    "groups": ["lists", "block"],
+    "description": "Defines an item in a list"
+  },
+  {
+    "tagName": "link",
+    "groups": ["metadata", "inline", "most-used"],
+    "groupsOrder": { "metadata": 4 },
+    "description": "Specifies relationships between the document and external resources"
+  },
+  {
+    "tagName": "main",
+    "groups": ["block"],
+    "description": "Defines the main content of a document"
+  },
+  {
+    "tagName": "map",
+    "groups": ["embedded", "block"],
+    "description": "Defines a map for image hotspots"
+  },
+  {
+    "tagName": "mark",
+    "groups": ["text-semantics", "inline"],
+    "description": "Highlights text"
+  },
+  {
+    "tagName": "meta",
+    "groups": ["metadata", "inline"],
+    "groupsOrder": { "metadata": 2 },
+    "description": "Defines metadata about an HTML document"
+  },
+  {
+    "tagName": "meter",
+    "groups": ["forms", "inline"],
+    "description": "Defines a scalar measurement or a range"
+  },
+  {
+    "tagName": "math",
+    "groups": ["svg-mathml", "block"],
+    "description": "Defines a container for MathML markup"
+  },
+  {
+    "tagName": "nav",
+    "groups": ["block"],
+    "description": "Defines navigation links"
+  },
+  {
+    "tagName": "noscript",
+    "groups": ["programming", "block"],
+    "description": "Defines an alternate content for browsers that do not support scripts"
+  },
+  {
+    "tagName": "object",
+    "groups": ["embedded", "block"],
+    "description": "Defines an embedded object"
+  },
+  {
+    "tagName": "ol",
+    "groups": ["lists", "block"],
+    "description": "Defines an ordered list"
+  },
+  {
+    "tagName": "optgroup",
+    "groups": ["forms", "block"],
+    "description": "Defines a group of options in a dropdown list"
+  },
+  {
+    "tagName": "option",
+    "groups": ["forms", "block"],
+    "description": "Defines an option in a dropdown list"
+  },
+  {
+    "tagName": "output",
+    "groups": ["forms", "block"],
+    "description": "Displays the result of a calculation or action"
+  },
+  { "tagName": "p", "groups": ["block"], "description": "Defines a paragraph" },
+  {
+    "tagName": "param",
+    "groups": ["embedded", "inline", "deprecated"],
+    "description": "Defines a parameter for an object"
+  },
+  {
+    "tagName": "picture",
+    "groups": ["media", "block"],
+    "description": "Defines a container for multiple image sources"
+  },
+
+  {
+    "tagName": "pre",
+    "groups": ["text-semantics", "block"],
+    "description": "Defines preformatted text"
+  },
+  {
+    "tagName": "progress",
+    "groups": ["forms", "block"],
+    "description": "Displays the progress of a task"
+  },
+  {
+    "tagName": "q",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines a short inline quotation"
+  },
+  {
+    "tagName": "rp",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines fallback text for browsers that do not support ruby annotations"
+  },
+  {
+    "tagName": "rt",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines the pronunciation of characters for ruby annotations"
+  },
+  {
+    "tagName": "rtc",
+    "groups": ["text-semantics", "inline", "deprecated"],
+    "description": "Defines a container for ruby text and annotations"
+  },
+  {
+    "tagName": "ruby",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines a ruby annotation"
+  },
+  {
+    "tagName": "s",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines text that is no longer correct"
+  },
+  {
+    "tagName": "samp",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines sample output from a program or system"
+  },
+  {
+    "tagName": "script",
+    "groups": ["programming", "block", "most-used", "metadata"],
+    "groupsOrder": { "metadata": 3 },
+    "description": "Embeds JavaScript or other scripts"
+  },
+  {
+    "tagName": "section",
+    "groups": ["block"],
+    "description": "Defines a section of content"
+  },
+  {
+    "tagName": "select",
+    "groups": ["forms", "block"],
+    "description": "Defines a dropdown list"
+  },
+  {
+    "tagName": "slot",
+    "groups": ["programming", "inline"],
+    "description": "Defines a placeholder for dynamic content"
+  },
+  {
+    "tagName": "small",
+    "groups": ["text-semantics", "inline", "deprecated"],
+    "description": "Defines smaller text, often for fine print"
+  },
+  {
+    "tagName": "source",
+    "groups": ["media", "inline"],
+    "description": "Specifies multiple media resources for media elements like audio or video"
+  },
+  {
+    "tagName": "span",
+    "groups": ["inline", "most-used"],
+    "groupsOrder": { "most-used": 5 },
+    "description": "Defines an inline container for styling or grouping text"
+  },
+  {
+    "tagName": "strong",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines important text with strong emphasis"
+  },
+  {
+    "tagName": "style",
+    "groups": ["metadata", "block", "most-used"],
+    "groupsOrder": { "metadata": 4 },
+    "description": "Defines internal CSS styles"
+  },
+  {
+    "tagName": "sub",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines subscript text"
+  },
+  {
+    "tagName": "summary",
+    "groups": ["interactive", "inline"],
+    "description": "Defines a summary for a details element"
+  },
+  {
+    "tagName": "sup",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines superscript text"
+  },
+  {
+    "tagName": "svg",
+    "groups": ["svg-mathml", "block"],
+    "description": "Defines an SVG container for scalable vector graphics"
+  },
+  {
+    "tagName": "table",
+    "groups": ["tables", "block"],
+    "description": "Defines a table"
+  },
+  {
+    "tagName": "tbody",
+    "groups": ["tables", "block"],
+    "description": "Defines a table body"
+  },
+  {
+    "tagName": "td",
+    "groups": ["tables", "block"],
+    "description": "Defines a table cell"
+  },
+  {
+    "tagName": "template",
+    "groups": ["programming", "block"],
+    "description": "Defines a template for reusable content"
+  },
+
+  {
+    "tagName": "textarea",
+    "groups": ["forms", "block"],
+    "description": "Defines a multiline text input field"
+  },
+  {
+    "tagName": "tfoot",
+    "groups": ["tables", "block"],
+    "description": "Defines a footer row in a table"
+  },
+  {
+    "tagName": "th",
+    "groups": ["tables", "block"],
+    "description": "Defines a header cell in a table"
+  },
+  {
+    "tagName": "thead",
+    "groups": ["tables", "block"],
+    "description": "Defines a header section in a table"
+  },
+  {
+    "tagName": "time",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines a specific time or date"
+  },
+  {
+    "tagName": "title",
+    "groups": ["metadata", "inline"],
+    "groupsOrder": { "metadata": 1 },
+    "description": "Defines the document's title shown in the browser tab"
+  },
+  {
+    "tagName": "tr",
+    "groups": ["tables", "block"],
+    "description": "Defines a row in a table"
+  },
+  {
+    "tagName": "track",
+    "groups": ["media", "inline"],
+    "description": "Defines text tracks (e.g., subtitles) for media elements like video and audio"
+  },
+  {
+    "tagName": "u",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines underlined text"
+  },
+  {
+    "tagName": "ul",
+    "groups": ["lists", "block"],
+    "description": "Defines an unordered list"
+  },
+  {
+    "tagName": "var",
+    "groups": ["text-semantics", "inline"],
+    "description": "Defines a variable in programming or math"
+  },
+  {
+    "tagName": "video",
+    "groups": ["media", "block"],
+    "description": "Embeds a video element"
+  },
+  {
+    "tagName": "wbr",
+    "groups": ["text-semantics", "inline"],
+    "description": "Suggests a word break opportunity"
+  },
+
+  {
+    "tagName": "big",
+    "groups": ["deprecated", "inline"],
+    "description": "Defines big text (use CSS instead)"
+  },
+  {
+    "tagName": "center",
+    "groups": ["deprecated", "block"],
+    "description": "Centers text (use CSS instead)"
+  },
+  {
+    "tagName": "tt",
+    "groups": ["deprecated", "inline"],
+    "description": "Defines monospaced text (use <code> or CSS instead)"
+  },
+  {
+    "tagName": "i",
+    "groups": ["inline"],
+    "description": "Defines italicized text (use <em> instead)"
+  },
+  {
+    "tagName": "strike",
+    "groups": ["deprecated", "inline"],
+    "description": "Defines a strikethrough text (use CSS instead)"
+  },
+  {
+    "tagName": "font",
+    "groups": ["deprecated", "inline"],
+    "description": "Defines a font face, size, and color (use CSS instead)"
+  },
+  {
+    "tagName": "dir",
+    "groups": ["deprecated", "block"],
+    "description": "Defines a base text directionality (use CSS instead)"
+  },
+  {
+    "tagName": "applet",
+    "groups": ["deprecated", "inline"],
+    "description": "Defines an applet (use <object> or <embed> instead)"
+  },
+  {
+    "tagName": "marquee",
+    "groups": ["deprecated", "block"],
+    "description": "Defines a marquee (use CSS animations instead)"
+  },
+  {
+    "tagName": "blink",
+    "groups": ["deprecated", "inline"],
+    "description": "Defines a blinking text (use CSS animations instead)"
+  }
+]

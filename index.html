@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tags Filter</title>
+    <link rel="stylesheet" href="./tags.css" />
+    <script src="./tagsRender.js" defer></script>
+    <script src="./tagsSelect.js" defer></script>
+  </head>
+  <body>
+    <h1>HTML Tags Filter</h1>
+    <p>
+      This is a simple HTML tags filter application. You can filter the tags by
+      group and see the details of the selected group.
+    </p>
+
+    <div class="controls">
+      <label for="tag-group">Filter by group:</label>
+      <select id="tag-group"></select>
+    </div>
+
+    <div class="tags-container"></div>
+
+    <div class="group-details">
+      <h2>Selected Group Details</h2>
+      <ol id="group-list">
+        List of tags will be displayed here.
+      </ol>
+    </div>
+  </body>
+</html>
