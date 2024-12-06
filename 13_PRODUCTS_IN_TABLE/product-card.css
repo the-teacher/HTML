@@ -26,6 +26,7 @@
 
 .product-card__details {
   padding: 16px;
+  text-align: left;
 }
 
 .product-card__title {
