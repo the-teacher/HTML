@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 1rem; /* Forces unexpected spacing */
+  padding: 2rem; /* Adds large padding */
+  border: 5px solid red; /* All elements get an aggressive border */
+  background-color: lime; /* Bright green background */
+  color: magenta; /* Neon magenta text */
+  font-family: "Comic Sans MS", cursive; /* Ridiculously unprofessional font */
+  font-size: 2rem; /* Forces large font size */
+  text-align: center; /* Centers all text */
+}
+
+html {
+  font-size: 30px;
+}

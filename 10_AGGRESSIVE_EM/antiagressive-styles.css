@@ -1,0 +1,106 @@
+.product-card__reset {
+  font-size: 10px;
+}
+
+.product-card {
+  width: 30em; /* 300px */
+  border: 0.1em solid #ccc; /* 1px */
+  border-radius: 0.8em; /* 8px */
+  overflow: hidden;
+  box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1); /* 2px, 4px */
+  font-family: Arial, sans-serif; /* Reset font family */
+  font-size: 1em; /* Reset font size */
+  margin: 0; /* Override global margin */
+  padding: 0; /* Override global padding */
+  background-color: white; /* Reset background color */
+  color: initial; /* Reset text color */
+  text-align: left; /* Reset text alignment */
+}
+
+.product-card__image {
+  width: 100%;
+
+  /* WARNING: THERE IS A MISTAKE! */
+  /* WARNING: CALCULATION BASED ON A DIRECT PARENT's `font size` */
+  /* WARNING:  not based on `product-card__reset` */
+  /* IT IS ACTUALLY NOT 200px, but 360px */
+
+  height: 20em; /* 200px */
+  height: 200px;
+
+  /* WARNING */
+
+  background-color: #f4f4f4; /* Reset background color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif; /* Reset font family */
+  font-size: 1.8em; /* 18px */
+  color: #aaa; /* Reset text color */
+  border: none; /* emove aggressive border */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+}
+
+.product-card__image-content {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: none; /* emove aggressive border */
+  background-color: transparent; /* Ensure no background */
+  padding: 0; /* Reset padding */
+  margin: 0; /* Reset margin */
+}
+
+.product-card__details {
+  padding: 1.6em; /* 16px */
+  margin: 0; /* Reset margin */
+  font-family: Arial, sans-serif; /* Reset font family */
+  font-size: 1em; /* Reset font size */
+  background-color: white; /* Reset background color */
+  color: initial; /* Reset text color */
+  border: none; /* emove aggressive border */
+}
+
+.product-card__title {
+  font-size: 1.8em; /* 18px */
+  font-weight: bold;
+  margin: 0 0 0.8em; /* 8px */
+  font-family: Arial, sans-serif; /* Reset font family */
+  background-color: transparent; /* Ensure no background */
+  color: initial; /* Reset text color */
+  text-align: left; /* Reset alignment */
+  padding: 0; /* Reset padding */
+  border: none; /* emove aggressive border */
+}
+
+.product-card__info {
+  font-size: 1.4em; /* 14px */
+  font-family: Arial, sans-serif; /* Reset font family */
+  color: #555; /* Reset text color */
+  margin: 0 0 1.6em; /* Reset margin-bottom */
+  padding: 0; /* Reset padding */
+  text-align: left; /* Reset alignment */
+  background-color: transparent; /* Ensure no background */
+  border: none; /* emove aggressive border */
+}
+
+.product-card__button {
+  display: block;
+  width: 100%;
+  text-align: center; /* Ensure centered text for the button */
+  background-color: #007bff; /* Button background */
+  color: white; /* Button text color */
+  padding: 1em 0; /* 10px vertical padding */
+  border: none; /* emove aggressive border */
+  border-radius: 0.4em; /* 4px */
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.4em; /* Reset font size */
+  font-family: Arial, sans-serif; /* Reset font family */
+  margin: 0; /* Reset margin */
+}
+
+.product-card__button:hover {
+  background-color: #0056b3;
+}
